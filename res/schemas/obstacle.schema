@@ -1,0 +1,76 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["f000"]]
+			]
+		},
+		"f000": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint32"],
+				["f002", "string"],
+				["f003", "uint16"],
+				["f004", "uint16"],
+				["f005", "uint16"],
+				["f006", "uint16"],
+				["f007", "uint16"],
+				["f008", "uint16"],
+				["f009", "uint8"],
+				["f010", "uint32"],
+				["f011", "uint32"],
+				["f012", "uint32"],
+				["f013", "uint32"],
+				["f014", "uint32"],
+				["f015", "uint32"],
+				["f016", "uint32"],
+				["f017", "uint8"],
+				["f018", "uint8"],
+				["f019", ["animations"]],
+				["f020", "uint32"],
+				["f021", "uint32"],
+				["f022", "uint32"],
+				["f023", "uint32"],
+				["f024", "uint32"]
+			]
+		},
+		"animations": {
+			"type": "table",
+			"fields": [
+				["name", "string"],
+				["f001", null],
+				["fps", "uint32"],
+				["frame_sets", ["frame_sets"]]
+			]
+		},
+		"frame_sets": {
+			"type": "table",
+			"fields": [
+				["frame", "uint32"],
+				["actions", ["actions"]],
+				["f002", null]
+			]
+		},
+		"actions": {
+			"type": "table",
+			"fields": [
+				["frame", "uint32"],
+				["f001", "uint8"],
+				["type", "uint8"],
+				["id", "uint32"],
+				["f004", "uint32"],
+				["camera", "position"]
+			]
+		},
+		"position": {
+			"type": "struct",
+			"fields": [
+				["X", "float"],
+				["Y", "float"]
+			]
+		}
+	}
+}

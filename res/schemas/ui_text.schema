@@ -1,0 +1,27 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["ui_texts", ["ui_text"]]
+			]
+		},
+		"ui_text": {
+			"type": "table",
+			"fields": [
+				["ui_text_id", "uint32"],
+				["ui_text_data", ["data"]]
+			]
+		},
+		"data": {
+			"type": "table",
+			"fields": [
+				["f000", null],
+				["ui_text_context", "string"],
+				["ui_text", "string"],
+				["text_font_size", "uint32"]
+			]
+		}
+	}
+}

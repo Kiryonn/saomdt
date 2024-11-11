@@ -1,0 +1,122 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["bullets", ["bullet"]]
+			]
+		},
+		"bullet": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["directory", "uint32"],
+				["name", "string"],
+				["f003", "uint8"],
+				["f004", "uint32"],
+				["f005", "uint8"],
+				["f006", "uint8"],
+				["f007", "uint8"],
+				["f008", "uint32"],
+				["f009", "uint32"],
+				["f010", "uint8"],
+				["f011", "uint8"],
+				["f012", "uint32"],
+				["f013", "uint32"],
+				["f014", "uint32"],
+				["f015", "uint8"],
+				["f016", "uint8"],
+				["f017", "uint8"],
+				["f018", "uint32"],
+				["animations", ["animations"]],
+				["f020", "uint32"],
+				["f021", "uint32"],
+				["f022", "uint32"],
+				["f023", "uint32"],
+				["f024", "uint32"],
+				["f025", "uint32"],
+				["f026", "uint8"],
+				["f027", "uint8"],
+				["f028", "uint8"],
+				["f029", "uint32"],
+				["f030", "uint32"],
+				["f031", "uint32"],
+				["f032", "uint32"],
+				["f033", "uint32"],
+				["f034", "uint32"],
+				["f035", "uint32"],
+				["f036", null],
+				["f037", "uint8"],
+				["f038", "uint8"],
+				["f039", "uint32"],
+				["f040", null],
+				["f041", "uint8"],
+				["f042", "uint32"],
+				["f043", "uint8"],
+				["f044", "uint8"],
+				["f045", "uint8"],
+				["f046", "uint8"],
+				["f047", "uint32"],
+				["f048", "uint32"],
+				["f049", "uint32"],
+				["f050", "string"],
+				["f051", "uint8"],
+				["f052", "uint8"],
+				["f053", "uint8"],
+				["f054", "uint32"],
+				["f055", "uint8"],
+				["f056", null],
+				["f057", "uint8"],
+				["f058", "uint8"],
+				["f059", "uint8"],
+				["f060", "uint8"],
+				["f061", "uint8"],
+				["f062", "uint8"],
+				["f063", "uint8"],
+				["f064", "uint8"],
+				["f065", "uint8"],
+				["f066", "uint8"],
+				["f067", "uint32"],
+				["f068", "uint8"],
+				["f069", "uint32"],
+				["f070", "uint32"],
+				["f071", "uint8"]
+			]
+		},
+		"animations": {
+			"type": "table",
+			"fields": [
+				["name", "string"],
+				["f001", null],
+				["fps", "uint32"],
+				["frame_sets", ["frame_sets"]]
+			]
+		},
+		"frame_sets": {
+			"type": "table",
+			"fields": [
+				["frame", "uint32"],
+				["actions", ["actions"]]
+			]
+		},
+		"actions": {
+			"type": "table",
+			"fields": [
+				["frame", "uint32"],
+				["f001", "uint8"],
+				["type", "uint8"],
+				["id", "uint32"],
+				["f004", "uint32"],
+				["camera", "position"]
+			]
+		},
+		"position": {
+			"type": "struct",
+			"fields": [
+				["x", "float"],
+				["y", "float"]
+			]
+		}
+	}
+}

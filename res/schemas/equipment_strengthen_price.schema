@@ -1,0 +1,26 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["equipment_strengthen_prices", ["equipment_strengthen_price"]]
+			]
+		},
+		"equipment_strengthen_price": {
+			"type": "table",
+			"fields": [
+				["rarity", "uint8"],
+				["strengthen_prices", ["strengthen_price"]]
+			]
+		},
+		"strengthen_price": {
+			"type": "table",
+			"fields": [
+				["level", "uint32"],
+				["rarity", "uint32"],
+				["price", "uint32"]
+			]
+		}
+	}
+}

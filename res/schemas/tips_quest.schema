@@ -1,0 +1,25 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["quest_tips", ["quest_tip"]]
+			]
+		},
+		"quest_tip": {
+			"type": "table",
+			"fields": [
+				["quest_tip_id", "uint32"],
+				["image", "string"],
+				["title", "string"],
+				["description", "string"],
+				["f004", "uint8"],
+				["f005", "uint8"],
+				["quest_id", "uint32"],
+				["stage_id", "uint32"],
+				["f008", "string"]
+			]
+		}
+	}
+}

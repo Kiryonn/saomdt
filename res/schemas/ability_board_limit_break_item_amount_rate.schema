@@ -1,0 +1,18 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["rates", ["Rate"]]
+			]
+		},
+		"Rate": {
+			"type": "table",
+			"fields": [
+				["rarity", "uint8"],
+				["rate", "float"]
+			]
+		}
+	}
+}

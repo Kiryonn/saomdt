@@ -1,0 +1,20 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["title_mask_colors", ["title_mask_color"]]
+			]
+		},
+		"title_mask_color": {
+			"type": "table",
+			"fields": [
+				["t\u00e7tle_mask_color_id", "uint32"],
+				["title_mask_color_name", "string"],
+				["title_mask_color_code", "string"],
+				["f003", "uint32"]
+			]
+		}
+	}
+}

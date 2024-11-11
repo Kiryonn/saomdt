@@ -1,0 +1,31 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["event_pvp_rank_conditions", ["event_pvp_rank_condition"]]
+			]
+		},
+		"event_pvp_rank_condition": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["ranks", ["rank"]]
+			]
+		},
+		"rank": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["f001", "uint32"],
+				["f002", "uint32"],
+				["f003", "uint32"],
+				["f004", "uint32"],
+				["f005", "uint32"],
+				["f006", "uint32"],
+				["f007", "uint32"]
+			]
+		}
+	}
+}

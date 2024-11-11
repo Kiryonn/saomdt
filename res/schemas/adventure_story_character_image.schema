@@ -1,0 +1,26 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"name": "root",
+			"type": "table",
+			"fields": [
+				["images", ["images"]]
+			]
+		},
+		"images": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["directory", "string"],
+				["body", "string"],
+				["emotion", "string"],
+				["detail", "string"],
+				["head", "string"],
+				["f006", "float"],
+				["f007", "float"],
+				["f008", "uint32"]
+			]
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["tutorial_releases", ["tutorial_release"]]
+			]
+		},
+		"tutorial_release": {
+			"type": "table",
+			"fields": [
+				["tutorial_release_id", "uint32"],
+				["f001", "uint32"]
+			]
+		}
+	}
+}

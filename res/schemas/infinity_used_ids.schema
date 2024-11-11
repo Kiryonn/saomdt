@@ -1,0 +1,19 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["items", ["Entry"]]
+			]
+		},
+		"Entry": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["type", "uint8"],
+				["object_id", "uint32"]
+			]
+		}
+	}
+}

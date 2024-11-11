@@ -1,0 +1,22 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["battle_cutin_triggers", ["battle_cutin_trigger"]]
+			]
+		},
+		"battle_cutin_trigger": {
+			"type": "table",
+			"fields": [
+				["trigger_id", "uint32"],
+				["f001", "uint8"],
+				["f002", "uint8"],
+				["f003", "uint32"],
+				["f004", "uint32"],
+				["f005", "uint32"]
+			]
+		}
+	}
+}

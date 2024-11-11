@@ -1,0 +1,23 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["event_quest_intruders", ["event_quest_intruder"]]
+			]
+		},
+		"event_quest_intruder": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["quest_id", "uint32"],
+				["f002", "uint32"],
+				["f003", "uint32"],
+				["f004", "uint32"],
+				["f005", "uint32"],
+				["f006", ["uint32"]]
+			]
+		}
+	}
+}

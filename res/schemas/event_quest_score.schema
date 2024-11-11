@@ -1,0 +1,32 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["event_quest_scores", ["event_scores"]]
+			]
+		},
+		"event_scores": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["quest_scores", ["quest_score"]]
+			]
+		},
+		"quest_score": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["quest_id", "uint32"],
+				["quest_difficulty", "uint8"],
+				["clear_score", "uint32"],
+				["clear_max_time_bonus", "uint32"],
+				["clear_bonus_time", "uint32"],
+				["received_damage_multiplier", "uint32"],
+				["dealt_damage_multiplier", "uint32"],
+				["parry_bonus_damage_multiplier", "uint32"]
+			]
+		}
+	}
+}

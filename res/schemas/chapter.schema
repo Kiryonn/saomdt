@@ -1,0 +1,20 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["Chapters", ["Chapters"]]
+			]
+		},
+		"Chapters": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["f001", "uint32"],
+				["f002", "string"],
+				["name", "string"]
+			]
+		}
+	}
+}

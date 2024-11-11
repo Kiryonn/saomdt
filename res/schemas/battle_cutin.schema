@@ -1,0 +1,41 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["character_battle_cutins", ["character_battle_cutins_data"]]
+			]
+		},
+		"character_battle_cutins_data": {
+			"type": "table",
+			"fields": [
+				["character_type_id", "uint32"],
+				["battle_cutins", ["battle_cutin"]]
+			]
+		},
+		"battle_cutin": {
+			"type": "table",
+			"fields": [
+				["f000", null],
+				["trigger", "uint32"],
+				["battle_cutin", ["battle_cutin_data"]]
+			]
+		},
+		"battle_cutin_data": {
+			"type": "table",
+			"fields": [
+				["character_type_id", "uint32"],
+				["f001", null],
+				["battle_cutin_trigger", "uint32"],
+				["f003", "uint32"],
+				["f004", "uint8"],
+				["battle_cutin_text", "string"],
+				["f006", "uint32"],
+				["battle_cutin_voice", "uint32"],
+				["f008", "uint32"],
+				["f009", "uint8"]
+			]
+		}
+	}
+}

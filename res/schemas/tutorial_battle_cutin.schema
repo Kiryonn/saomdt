@@ -1,0 +1,28 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["tutorial_battle_cutins", ["tutorial_battle_cutin"]]
+			]
+		},
+		"tutorial_battle_cutin": {
+			"type": "table",
+			"fields": [
+				["tutorial_battle_cutin_id", "uint8"],
+				["tutorial_battle_cutin_data", ["data"]]
+			]
+		},
+		"data": {
+			"type": "table",
+			"fields": [
+				["tutorial_battle_cutin_id", "uint8"],
+				["f001", "uint32"],
+				["battle_cutin_image", "string"],
+				["battle_cutin_text", "string"],
+				["f004", "uint32"]
+			]
+		}
+	}
+}

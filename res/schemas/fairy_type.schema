@@ -1,0 +1,19 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["fairy_types", ["FairyType"]]
+			]
+		},
+		"FairyType": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["name_jp", "string"],
+				["name_en", "string"]
+			]
+		}
+	}
+}

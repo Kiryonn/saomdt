@@ -1,0 +1,34 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["Table_0"]]
+			]
+		},
+		"Table_0": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", ["Table_1"]]
+			]
+		},
+		"Table_1": {
+			"type": "table",
+			"fields": [ 
+				["f000", "uint32"],
+				["f001", "uint32"],
+				["f002", "uint32"],
+				["f003", ["Table_2"]]
+			]
+		},
+		"Table_2": {
+			"type": "table",
+			"fields": [
+				["f000", "string"],
+				["f001", "uint32"]
+			]
+		}
+	}
+}

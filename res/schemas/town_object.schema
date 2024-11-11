@@ -1,0 +1,18 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["town_objects", ["town_object"]]
+			]
+		},
+		"town_object": {
+			"type": "table",
+			"fields": [
+				["town_object_id", "uint32"],
+				["town_object_text", "string"]
+			]
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["event_pvp_rank_first_reach_rewards", ["event_pvp_rank_first_reach_reward"]]
+			]
+		},
+		"event_pvp_rank_first_reach_reward": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["rank_rewards", ["rewards"]]
+			]
+		},
+		"rewards": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["rank", "uint32"],
+				["reward_group_id", "uint32"]
+			]
+		}
+	}
+}

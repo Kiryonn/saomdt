@@ -1,0 +1,21 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["equipment_strengthen_campaigns", ["equipment_strengthen_campaign"]]
+			]
+		},
+		"equipment_strengthen_campaign": {
+			"type": "table",
+			"fields": [
+				["strengthen_campaign_id", "uint32"],
+				["success_rate_increase", "uint32"],
+				["f002", null],
+				["f003", null],
+				["campaign_end_date", "uint32"]
+			]
+		}
+	}
+}

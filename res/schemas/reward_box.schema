@@ -1,0 +1,18 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["reward_boxes", ["reward_box"]]
+			]
+		},
+		"reward_box": {
+			"type": "table",
+			"fields": [
+				["reward_box_id", "uint32"],
+				["reward_box_reason", "string"]
+			]
+		}
+	}
+}

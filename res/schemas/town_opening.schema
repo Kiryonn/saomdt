@@ -1,0 +1,25 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["town_openings", ["town_opening"]]
+			]
+		},
+		"town_opening": {
+			"type": "table",
+			"fields": [
+				["town_opening_id", "uint32"],
+				["f001", "uint8"],
+				["story_id", "uint32"],
+				["opening_name", "string"],
+				["f004", "uint8"],
+				["f005", null],
+				["f006", "uint32"],
+				["start_date", "uint32"],
+				["end_date", "uint32"]
+			]
+		}
+	}
+}

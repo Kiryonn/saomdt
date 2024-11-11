@@ -1,0 +1,24 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["daily_missions", ["daily_mission"]]
+			]
+		},
+		"daily_mission": {
+			"type": "table",
+			"fields": [[
+				"master_mission_id",
+				"uint32"
+			],
+				["name", "string"],
+				["f002", "uint32"],
+				["f003", "uint8"],
+				["f004", null],
+				["reward_id", "uint32"]
+			]
+		}
+	}
+}

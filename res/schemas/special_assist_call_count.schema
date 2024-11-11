@@ -1,0 +1,17 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["call_counts", ["CallCount"]]
+			]
+		},
+		"CallCount": {
+			"type": "table",
+			"fields": [
+				["f000", null]
+			]
+		}
+	}
+}

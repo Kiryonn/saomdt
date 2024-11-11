@@ -1,0 +1,28 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["ability_boards", ["AbilityBoard"]]
+			]
+		},
+		"AbilityBoard": {
+			"type": "table",
+			"fields": [
+				["ab_id", "uint32"],
+				["nodes", ["Node"]]
+			]
+		},
+		"Node": {
+			"type": "table",
+			"fields": [
+				["node_id", "uint32"],
+				["ab_id", "uint32"],
+				["type", "uint32"],
+				["item_id", "uint32"],
+				["quantity", "uint32"]
+			]
+		}
+	}
+}

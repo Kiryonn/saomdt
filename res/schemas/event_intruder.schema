@@ -1,0 +1,23 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["event_intruders", ["event_intruder"]]
+			]
+		},
+		"event_intruder": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["reward_box_id", "uint32"],
+				["f002", ["uint32"]],
+				["event_map_file", "string"],
+				["f004", "float"],
+				["f005", "string"],
+				["f006", "string"]
+			]
+		}
+	}
+}

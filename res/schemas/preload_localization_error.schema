@@ -1,0 +1,18 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["error", ["errors"]]
+			]
+		},
+		"errors": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["text", "string"]
+			]
+		}
+	}
+}

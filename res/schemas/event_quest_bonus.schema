@@ -1,0 +1,22 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["event_quest_bonuses", ["event_quest_bonus"]]
+			]
+		},
+		"event_quest_bonus": {
+			"type": "table",
+			"fields": [
+				["quest_bonus_id", "uint32"],
+				["quest_id", "uint32"],
+				["bonus_type", "uint8"],
+				["bonus_id", "uint32"],
+				["f004", "uint8"],
+				["f005", "uint32"]
+			]
+		}
+	}
+}

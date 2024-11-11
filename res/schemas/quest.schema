@@ -1,0 +1,56 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["quests", ["quest"]],
+				["quests_by_chapter", ["chapter_quests"]]
+			]
+		},
+		"quest": {
+			"type": "table",
+			"fields": [
+				["world_id", "uint32"],
+				["f001", "uint32"],
+				["quest_number", "uint32"],
+				["quest_id", "uint32"],
+				["chapter_id", "uint32"],
+				["f005", "uint8"],
+				["quest_name", "string"],
+				["quest_number_text", "string"],
+				["type_text", "string"],
+				["thumbnail", "string"],
+				["quest_goal", "string"],
+				["f011", null],
+				["f012", "uint8"],
+				["f013", "uint8"],
+				["quest_type", "uint32"],
+				["f015", null],
+				["f016", "uint16"],
+				["f017", null],
+				["f018", "uint8"],
+				["description", "string"],
+				["f020", "uint8"],
+				["reward_contents_id", "uint32"],
+				["f022", "uint8"],
+				["warning", "string"],
+				["f024", "string"]
+			]
+		},
+		"chapter_quests": {
+			"type": "table",
+			"fields": [
+				["chapter_id", "uint32"],
+				["f001", ["Table_2"]]
+			]
+		},
+		"Table_2": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["quests", ["quest"]]
+			]
+		}
+	}
+}

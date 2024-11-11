@@ -1,0 +1,32 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["quest_conditions", ["quest_condition"]]
+			]
+		},
+		"quest_condition": {
+			"type": "table",
+			"fields": [
+				["quest_id", "uint32"],
+				["conditions", ["condition"]]
+			]
+		},
+		"condition": {
+			"type": "table",
+			"fields": [
+				["quest_id", "uint32"],
+				["condition_type", "uint8"],
+				["condition", "uint32"],
+				["description", "string"],
+				["condition_scope", "uint8"],
+				["f005", "uint8"],
+				["item_amount", "uint32"],
+				["f007", "uint32"],
+				["stage_id", "uint32"]
+			]
+		}
+	}
+}

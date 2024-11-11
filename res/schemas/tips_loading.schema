@@ -1,0 +1,27 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["loading_tips", ["tips"]]
+			]
+		},
+		"tips": {
+			"type": "table",
+			"fields": [
+				["loading_tips_id", "uint32"],
+				["loading_tips_data", ["loading_tip"]]
+			]
+		},
+		"loading_tip": {
+			"type": "table",
+			"fields": [
+				["loading_tip_id", "uint32"],
+				["description", "string"],
+				["title", "string"],
+				["image", "string"]
+			]
+		}
+	}
+}

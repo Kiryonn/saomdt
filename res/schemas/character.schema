@@ -1,0 +1,151 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["Unit"]]
+			]
+		},
+		"Unit": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["rarity", "uint8"],
+				["name", "string"],
+				["weapon_type", "uint8"],
+				["ss_folder", "uint32"],
+				["f005", "string"],
+				["desc", "string"],
+				["unit_cost", "uint16"],
+				["f008", "uint8"],
+				["element", "uint8"],
+				["sex", "uint8"],
+				["movement_speed", "uint32"],
+				["attack_speed", "uint32"],
+				["dash_distance", "uint32"],
+				["f014", "uint32"],
+				["f015", "uint32"],
+				["f016", "uint16"],
+				["sprite_image", "string"],
+				["f018", ["animation"]],
+				["f019", ["string"]],
+				["f020", null],
+				["f021", "uint32"],
+				["f022", "string"],
+				["f023", null],
+				["f024", "uint32"],
+				["f025", null],
+				["f026", "uint32"],
+				["f027", "uint32"],
+				["hp", "Stat"],
+				["mp", "Stat"],
+				["att", "Stat"],
+				["def", "Stat"],
+				["cri", "Stat"],
+				["f033", "Stat"],
+				["f034", ["uint32"]],
+				["sword_skill", ["uint32"]],
+				["passive_skills", ["uint32"]],
+				["f037", "uint32"],
+				["f038", "uint32"],
+				["f039", null],
+				["f040", "uint32"],
+				["f041", null],
+				["f042", null],
+				["f043", ["uint32"]],
+				["character", "string"],
+				["f045", "uint32"],
+				["f046", "uint32"],
+				["f047", "uint32"],
+				["f048", "uint32"],
+				["f049", "uint32"],
+				["f050", "uint32"],
+				["f051", "uint32"],
+				["world_type", "uint32"],
+				["character_id", "uint32"],
+				["f054", "uint32"],
+				["f055", "uint32"],
+				["anim_wait_prefix", "uint32"],
+				["f057", "string"],
+				["f058", "string"],
+				["f059", "Stat"],
+				["f060", "Stat"],
+				["f061", "uint32"],
+				["f062", "uint32"],
+				["f063", "uint32"],
+				["f064", "uint32"],
+				["f065", "uint8"],
+				["trial_partner", "uint32"],
+				["f067", "uint32"],
+				["ev_of", "uint32"],
+				["shield", "string"],
+				["f070", "uint32"],
+				["f071", "uint32"],
+				["f072", "uint32"],
+				["f073", "uint32"],
+				["f074", "uint32"],
+				["f075", "uint32"],
+				["f076", "string"],
+				["anim_wait_id", "string"],
+				["f078", "uint32"],
+				["f079", "uint32"],
+				["f080", "uint32"]
+				["f081", "uint32"],
+				["f082", "uint32"],
+				["f083", "uint32"],
+				["f084", "uint32"],
+				["f085", "uint32"],
+				["f086", "uint32"],
+				["f087", null],
+				["f088", "uint32"],
+				["f089", "uint32"],
+				["f090", "uint32"],
+				["f091", "uint32"]
+			]
+		},
+		"animation": {
+			"type": "table",
+			"fields": [
+				["anim_name", "string"],
+				["f001", null],
+				["f002", "uint32"],
+				["frame_set", ["frame_set"]]
+			]
+		},
+		"Stat": {
+			"type": "struct",
+			"fields": [
+				["base_stat", "uint32"],
+				["max_stat", "uint32"],
+				["max_break_stat", "uint32"]
+			]
+		},
+		"frame_set": {
+			"type": "table",
+			"fields": [
+				["frame_num", "uint32"],
+				["frame_actions", ["action"]],
+				["f002", null]
+			]
+		},
+		"action": {
+			"type": "table",
+			"fields": [
+				["frame_num", "uint32"],
+				["f001", "uint8"],
+				["action_type", "uint8"],
+				["action_id", "uint32"],
+				["f004", "uint32"],
+				["f005", "Struct_0"]
+			]
+		},
+		"Struct_0": {
+			"type": "struct",
+			"fields": [
+				["f0", "uint32"],
+				["f1", "uint32"]
+			]
+		}
+	}
+}

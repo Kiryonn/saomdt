@@ -1,0 +1,45 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["f001", "uint8"],
+				["pack", "string"],
+				["animations", "animation_data"]
+			]
+		},
+		"animation_data": {
+			"type": "table",
+			"fields": [
+				["name", "string"],
+				["frames_count", "uint32"],
+				["fps", "uint32"],
+				["animation_frames", ["animation"]]
+			]
+		},
+		"animation": {
+			"type": "table",
+			"fields": [
+				["frame", "uint32"],
+				["f001", ["Table_2"]],
+				["f002", ["Table_2"]]
+			]
+		},
+		"Table_2": {
+			"type": "table",
+			"fields": [
+				["f000", "uint8"],
+				["position_x", "float"],
+				["position_y", "float"],
+				["f003", "float"],
+				["f004", "float"],
+				["f005", "float"],
+				["f006", "float"],
+				["f007", "float"],
+				["f008", "uint8"]
+			]
+		}
+	}
+}

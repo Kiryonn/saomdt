@@ -1,0 +1,25 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["reward_box_contents", ["contents"]]
+			]
+		},
+		"contents": {
+			"type": "table",
+			"fields": [
+				["reward_box_contents_id", "uint32"],
+				["f001", "uint32"],
+				["reward_box_type", "uint32"],
+				["item", "uint32"],
+				["content_description", "string"],
+				["f005", "uint32"],
+				["item_amount", "uint32"],
+				["level", "uint32"],
+				["f008", "uint32"]
+			]
+		}
+	}
+}

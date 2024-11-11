@@ -1,0 +1,24 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["titles", ["Title"]]
+			]
+		},
+		"Title": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["name", "string"],
+				["description", "string"],
+				["f00", "uint8"],
+				["f01", "uint32"],
+				["adventure_character_thumbnail_id", "uint32"],
+				["f02", "string"],
+				["f03", "uint8"]
+			]
+		}
+	}
+}

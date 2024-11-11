@@ -1,0 +1,20 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["worlds", ["world"]]
+			]
+		},
+		"world": {
+			"type": "table",
+			"fields": [
+				["world_id", "uint32"],
+				["world_name", "string"],
+				["world_csb_file", "string"],
+				["world_short_name", "string"]
+			]
+		}
+	}
+}

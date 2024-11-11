@@ -1,0 +1,59 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["items", ["Entry"]]
+			]
+		},
+		"Entry": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "string"],
+				["f002", "string"],
+				["f003", "uint32"],
+				["f004", "uint8"],
+				["f005", "Table_1"],
+				["f006", ["Table_2"]]
+			]
+		},
+		"Table_1": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint32"],
+				["f002", null],
+				["f003", null]
+			]
+		},
+		"Table_2": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "string"],
+				["f002", "Table_3"],
+				["f003", "uint8"],
+				["f004", "uint8"],
+				["f005", "uint8"],
+				["f006", "string"]
+			]
+		},
+		"Table_3": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint8"],
+				["f002", null],
+				["f003", "uint8"],
+				["f004", null],
+				["f005", null],
+				["f006", null],
+				["f007", null],
+				["f008", null],
+				["f009", null]
+			]
+		}
+	}
+}

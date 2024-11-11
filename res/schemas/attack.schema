@@ -1,0 +1,99 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["table0"]]
+			]
+		},
+		"table0": {
+			"type": "table",
+			"fields": [
+				["f00", "uint32"],
+				["f01", "uint8"],
+				["f02", "uint8"],
+				["f03", "uint32"],
+				["f04", "uint32"],
+				["f05", "uint8"],
+				["f06", "uint8"],
+				["f07", "uint8"],
+				["f08", "uint32"],
+				["f09", "float"],
+				["f10", "float"],
+				["f11", "uint32"],
+				["f12", "uint32"],
+				["f13", "uint32"],
+				["f14", "uint32"],
+				["f15", "uint32"],
+				["f16", "uint32"],
+				["f17", "uint32"],
+				["f18", "uint32"],
+				["f19", "uint32"],
+				["f20", "uint32"],
+				["f21", "float"],
+				["f22", "uint32"],
+				["f23", "uint32"],
+				["f24", null],
+				["f25", "uint32"],
+				["f26", "uint32"],
+				["f27", "uint32"],
+				["f28", "uint8"],
+				["f29", "uint32"],
+				["f30", "uint8"],
+				["f31", "uint32"],
+				["f32", "uint32"],
+				["f33", "uint32"],
+				["f34", "uint32"],
+				["f35", "float"],
+				["f36", "uint32"],
+				["f37", "uint8"],
+				["f38", "float"],
+				["f39", null],
+				["f40", "uint32"],
+				["f41", null],
+				["f42", "uint32"],
+				["f43", "uint32"],
+				["f44", "uint8"],
+				["f45", "uint8"],
+				["f46", "uint32"],
+				["f47", null],
+				["f48", "uint32"],
+				["f49", "uint32"],
+				["f50", null],
+				["f51", null],
+				["f52", "uint32"],
+				["f53", "float"],
+				["f54", "uint32"],
+				["f55", null],
+				["f56", "uint8"],
+				["f57", "uint32"],
+				["f58", "uint32"],
+				["f59", "uint32"],
+				["f60", ["table60"]],
+				["f61", "uint32"],
+				["f62", "uint32"],
+				["f63", "uint8"],
+				["f64", "uint8"],
+				["f65", "uint32"],
+				["f66", null]
+			]
+		},
+		"table60": {
+			"type": "table",
+			"fields": [
+				["f00", "uint32"],
+				["f01", "Struct_0"],
+				["f02", "uint8"],
+				["f03", null]
+			]
+		},
+		"Struct_0": {
+			"type": "struct",
+			"fields": [
+				["f0", "uint32"],
+				["f1", "uint8"]
+			]
+		}
+	}
+}

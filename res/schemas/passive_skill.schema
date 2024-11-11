@@ -1,0 +1,158 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["skill"]]
+			]
+		},
+		"skill": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "string"],
+				["f002", "string"],
+				["f003", "Table_2"],
+				["f004", "Table_3"],
+				["f005", "Table_4"],
+				["f006", "Table_5"],
+				["f007", "Table_6"],
+				["f008", "Table_7"],
+				["f009", "Table_8"],
+				["f010", ["Table_9"]],
+				["f011", "string"],
+				["f012", ["Table_10"]]
+			]
+		},
+		"Table_2": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", null],
+				["f002", null],
+				["f003", null],
+				["f004", null],
+				["f005", null],
+				["f006", "uint8"],
+				["f007", "uint8"],
+				["f008", "uint32"]
+			]
+		},
+		"Table_3": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint8"],
+				["f002", "uint8"],
+				["f003", "uint8"],
+				["f004", "uint8"],
+				["f005", null],
+				["f006", "uint8"],
+				["f007", "uint32"],
+				["f008", "uint8"],
+				["f009", "uint8"],
+				["f010", null],
+				["f011", "uint8"],
+				["f012", "uint8"],
+				["f013", "uint32"],
+				["f014", "uint32"],
+				["f015", null]
+			]
+		},
+		"Table_4": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint8"],
+				["f002", null],
+				["f003", "uint8"],
+				["f004", null],
+				["f005", null]
+			]
+		},
+		"Table_5": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint8"],
+				["f002", "uint8"],
+				["f003", "uint8"],
+				["f004", null],
+				["f005", null],
+				["f006", "uint8"],
+				["f007", "uint8"],
+				["f008", "uint8"],
+				["f009", null],
+				["f010", null]
+			]
+		},
+		"Table_6": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint32"],
+				["f002", null],
+				["f003", null]
+			]
+		},
+		"Table_7": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint32"],
+				["f002", "uint32"],
+				["f003", "uint32"]
+			]
+		},
+		"Table_8": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint8"],
+				["f002", "uint8"],
+				["f003", "uint8"],
+				["f004", "uint32"],
+				["f005", "uint8"],
+				["f006", null],
+				["f007", null],
+				["f008", null]
+			]
+		},
+		"Table_9": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint8"],
+				["f002", "uint8"],
+				["f003", "uint8"],
+				["f004", "uint32"],
+				["f005", "uint8"],
+				["f006", "uint8"],
+				["f007", "uint8"],
+				["f008", "uint8"]
+			]
+		},
+		"Table_10": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint8"],
+				["f002", "uint8"],
+				["f003", "uint8"],
+				["f004", "uint8"],
+				["f005", null],
+				["f006", "uint8"],
+				["f007", "uint32"],
+				["f008", "uint8"],
+				["f009", "uint8"],
+				["f010", null],
+				["f011", "uint8"],
+				["f012", "uint8"],
+				["f013", "uint32"],
+				["f014", "uint32"],
+				["f015", null]
+			]
+		}
+	}
+}

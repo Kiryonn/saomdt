@@ -1,0 +1,23 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["quest_appearances", ["quest_appearance"]]
+			]
+		},
+		"quest_appearance": {
+			"type": "table",
+			"fields": [
+				["stage_id", "uint32"],
+				["quest_id", "uint32"],
+				["f002", "uint32"],
+				["f003", "uint8"],
+				["required_cleared_quest", "uint32"],
+				["f005", "uint32"],
+				["f006", "uint32"]
+			]
+		}
+	}
+}

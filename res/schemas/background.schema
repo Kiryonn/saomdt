@@ -1,0 +1,51 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["backgrounds", ["backgrounds"]]
+			]
+		},
+		"backgrounds": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["f001", "uint8"],
+				["f002", "uint32"],
+				["f003", "uint32"],
+				["f004", "uint32"],
+				["f005", "float"],
+				["f006", "float"],
+				["f007", "float"],
+				["f008", ["Table_0"]]
+			]
+		},
+		"Table_0": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["f001", "uint32"],
+				["name", "string"],
+				["f003", "uint8"],
+				["f004", "uint32"],
+				["f005", "uint32"],
+				["f006", "uint32"],
+				["f007", "float"],
+				["f008", "float"],
+				["f009", "float"],
+				["f010", "float"],
+				["f011", "uint8"],
+				["f012", "uint8"],
+				["f013", "float"],
+				["f014", "float"],
+				["f015", "uint32"],
+				["directory", "uint32"],
+				["f017", "float"],
+				["f018", "uint32"],
+				["f019", "string"],
+				["f020", "string"]
+			]
+		}
+	}
+}

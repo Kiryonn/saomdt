@@ -1,0 +1,19 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["character_levels", ["character_level"]]
+			]
+		},
+		"character_level": {
+			"type": "table",
+			"fields": [
+				["character_level_id", "uint32"],
+				["level", "uint32"],
+				["max_exp", "uint32"]
+			]
+		}
+	}
+}

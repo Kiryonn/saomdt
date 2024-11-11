@@ -1,0 +1,23 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["story_effects", ["story_effect"]]
+			]
+		},
+		"story_effect": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["f001", "uint8"],
+				["path", "string"],
+				["file", "string"],
+				["f004", "uint8"],
+				["f005", "float"],
+				["f006", "float"]
+			]
+		}
+	}
+}

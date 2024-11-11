@@ -1,0 +1,28 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["colors", ["color_set"]]
+			]
+		},
+		"color_set": {
+			"type": "table",
+			"fields": [
+				["character_id", "uint32"],
+				["sets", ["Table_0"]]
+			]
+		},
+		"Table_0": {
+			"type": "table",
+			"fields": [
+				["character_id", "uint32"],
+				["f001", "uint8"],
+				["color", "string"],
+				["sprite", "string"],
+				["outfit_id", "string"]
+			]
+		}
+	}
+}

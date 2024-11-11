@@ -1,0 +1,18 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["world_types", ["WorldType"]]
+			]
+		},
+		"WorldType": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["name", "string"]
+			]
+		}
+	}
+}

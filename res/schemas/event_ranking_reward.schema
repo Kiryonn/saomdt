@@ -1,0 +1,30 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["event_ranking_rewards", ["ranking_rewards"]]
+			]
+		},
+		"ranking_rewards": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["rank_rewards", ["rewards"]]
+			]
+		},
+		"rewards": {
+			"type": "table",
+			"fields": [
+				["ranking_reward_id", "uint32"],
+				["event_id", "uint32"],
+				["reward_group_id", "uint32"],
+				["f003", "uint8"],
+				["minimum_required_rank", "uint32"],
+				["maximum_required_rank", "uint32"],
+				["f006", "uint32"]
+			]
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["event_guild_dungeon_final_rank_rewards", ["event_guild_dungeon_final_rank_reward"]]
+			]
+		},
+		"event_guild_dungeon_final_rank_reward": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["rank_rewards", ["rewards"]]
+			]
+		},
+		"rewards": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["rank", "uint32"],
+				["reward_group_id", "uint32"]
+			]
+		}
+	}
+}

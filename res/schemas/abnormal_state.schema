@@ -1,0 +1,54 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["status", ["Status"]]
+			]
+		},
+		"Status": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["f02", ["F02"]],
+				["f03", "uint32"],
+				["f04", "uint32"],
+				["f05", "uint32"]
+			]
+		},
+		"F02": {
+			"type": "table",
+			"fields": [
+				["f0", "uint32"],
+				["f1", ["F4"]],
+				["f2", "uint32"],
+				["f3", "uint32"],
+				["f4", "uint32"],
+				["f5", "uint32"],
+				["f6", "uint32"]
+			]
+		},
+		"F4": {
+			"type": "table",
+			"fields": [
+				["v0", "uint8"],
+				["v1", "uint8"],
+				["v2", "uint8"],
+				["v3", "uint32"],
+				["v4", "string"],
+				["v5", "uint32"]
+			]
+		},
+		"stat": {
+			"type": "struct",
+			"fields": [
+				["v0", "uint8"],
+				["v1", "uint8"],
+				["v2", "uint8"],
+				["v3", "uint8"],
+				["v4", "uint8"]
+			]
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["equipment_strengthen_items", ["equipment_strengthen_item"]]
+			]
+		},
+		"equipment_strengthen_item": {
+			"type": "table",
+			"fields": [
+				["item_group_id", "uint32"],
+				["strenghten_items", ["strenghten_item"]]
+			]
+		},
+		"strenghten_item": {
+			"type": "table",
+			"fields": [
+				["strenghten_item_id", "uint32"],
+				["item_group_id", "uint32"],
+				["level", "uint32"],
+				["master_item_id", "uint32"],
+				["amount", "uint32"]
+			]
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["charge_skills", ["ChargeSkill"]]
+			]
+		},
+		"ChargeSkill": {
+			"type": "table",
+			"fields": [
+				["skill_id", "uint32"],
+				["charge_time", ["float"]],
+				["mp_cost", ["uint32"]],
+				["multiplier", ["float"]]
+			]
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["RewardGroup"]]
+			]
+		},
+		"RewardGroup": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"]
+			]
+		}
+	}
+}

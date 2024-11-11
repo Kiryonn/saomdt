@@ -1,0 +1,27 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["event_guild_dungeon_rank_conditions", ["event_guild_dungeon_rank_condition"]]
+			]
+		},
+		"event_guild_dungeon_rank_condition": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["rank_conditions", ["rank_condition"]]
+			]
+		},
+		"rank_condition": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["event_id", "uint32"],
+				["f002", "uint32"],
+				["f003", "uint32"]
+			]
+		}
+	}
+}

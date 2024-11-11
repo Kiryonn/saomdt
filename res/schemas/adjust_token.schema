@@ -1,0 +1,19 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"name": "root",
+			"type": "table",
+			"fields": [
+				["f000", ["token"]]
+			]
+		},
+		"token": {
+			"type": "table",
+			"fields": [
+				["f000", "string"],
+				["f001", "string"]
+			]
+		}
+	}
+}

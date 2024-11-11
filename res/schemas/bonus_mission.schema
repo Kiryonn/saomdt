@@ -1,0 +1,27 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["bonus_missions", ["bonus_mission"]]
+			]
+		},
+		"bonus_mission": {
+			"type": "table",
+			"fields": [
+				["bonus_mission_id", "uint32"],
+				["bonus_mission_details", ["details"]]
+			]
+		},
+		"details": {
+			"type": "table",
+			"fields": [
+				["bonus_mission_id", "uint32"],
+				["slot", "uint32"],
+				["bonus_mission_contents_id", "uint32"],
+				["reward_group_id", "uint32"]
+			]
+		}
+	}
+}

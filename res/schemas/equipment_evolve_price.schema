@@ -1,0 +1,18 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["equipment_evolve_prices", ["equipment_evolve_price"]]
+			]
+		},
+		"equipment_evolve_price": {
+			"type": "table",
+			"fields": [
+				["rarity", "uint8"],
+				["price", "uint32"]
+			]
+		}
+	}
+}

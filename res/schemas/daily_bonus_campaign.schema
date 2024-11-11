@@ -1,0 +1,41 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["daily_bonus_campaigns", ["daily_bonus_campaign"]]
+			]
+		},
+		"daily_bonus_campaign": {
+			"type": "table",
+			"fields": [
+				["daily_bonus_campaign_id", "uint32"],
+				["f001", "uint8"],
+				["campaign_details", ["details"]],
+				["f003", "string"],
+				["campaign_name", "string"],
+				["campaign_start_date", "uint32"],
+				["campaign_end_date", "uint32"],
+				["f007", "string"]
+			]
+		},
+		"details": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint32"],
+				["f002", "uint32"],
+				["f003", ["Table_2"]]
+			]
+		},
+		"Table_2": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint32"],
+				["reward_group_id", "uint32"]
+			]
+		}
+	}
+}

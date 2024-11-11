@@ -1,0 +1,25 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["missions", ["mission"]]
+			]
+		},
+		"mission": {
+			"type": "table",
+			"fields": [
+				["master_mission_id", "uint32"],
+				["name", "string"],
+				["f002", "uint32"],
+				["mission_type", "uint8"],
+				["clear_conditions", "string"],
+				["required_mission", "uint32"],
+				["reward_id", "uint32"],
+				["category", "uint32"],
+				["is_challenge", "uint32"]
+			]
+		}
+	}
+}

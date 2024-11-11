@@ -1,0 +1,32 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["town_object_patterns", ["town_object_pattern"]]
+			]
+		},
+		"town_object_pattern": {
+			"type": "table",
+			"fields": [
+				["town_object_pattern_id", "uint32"],
+				["town_object_pattern_data", ["pattern_data"]]
+			]
+		},
+		"pattern_data": {
+			"type": "table",
+			"fields": [
+				["pattern_id", "uint32"],
+				["f001", "uint32"],
+				["object_pattern_position_x", "float"],
+				["f003", "float"],
+				["object_pattern_position_y", "float"],
+				["f005", "uint32"],
+				["f006", null],
+				["f007", null],
+				["f008", "uint8"]
+			]
+		}
+	}
+}

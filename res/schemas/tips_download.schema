@@ -1,0 +1,20 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["download_tips", ["download_tip"]]
+			]
+		},
+		"download_tip": {
+			"type": "table",
+			"fields": [
+				["download_tip_id", "uint32"],
+				["image", "string"],
+				["character", "string"],
+				["description", "string"]
+			]
+		}
+	}
+}

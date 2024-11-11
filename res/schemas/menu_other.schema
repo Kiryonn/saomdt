@@ -1,0 +1,19 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["MenuOther"]]
+			]
+		},
+		"MenuOther": {
+			"type": "table",
+			"fields": [
+				["id", "uint8"],
+				["name", "string"],
+				["f00", "uint8"]
+			]
+		}
+	}
+}

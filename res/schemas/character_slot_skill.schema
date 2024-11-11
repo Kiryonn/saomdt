@@ -1,0 +1,28 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["units", ["Unit"]]
+			]
+		},
+		"Unit": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["f01", ["F01_t"]]
+			]
+		},
+		"F01_t": {
+			"type": "table",
+			"fields": [
+				["f00", "uint32"],
+				["f01", "uint32"],
+				["f02", "uint32"],
+				["f03", "uint32"],
+				["f04", "uint32"]
+			]
+		}
+	}
+}

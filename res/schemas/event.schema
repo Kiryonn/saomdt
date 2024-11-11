@@ -1,0 +1,39 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["items", ["Entry"]]
+			]
+		},
+		"Entry": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["type", "uint8"],
+				["f02", "string"],
+				["f03", "string"],
+				["f04", "string"],
+				["f05", "string"],
+				["f06", "uint32"],
+				["f07", "uint8"],
+				["f08", "uint32"],
+				["f09", "uint8"],
+				["f10", "uint32"],
+				["f11", "string"],
+				["f12", "uint32"],
+				["f13", "uint8"],
+				["f14", "string"],
+				["f15", "uint32"],
+				["f16", "uint32"],
+				["f17", "uint32"],
+				["f18", "uint8"],
+				["f19", "uint8"],
+				["f20", "uint8"],
+				["f21", "uint32"],
+				["f22", "uint32"]
+			]
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["effects", ["Effect"]]
+			]
+		},
+		"Effect": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["name", "string"],
+				["f002", "uint8"],
+				["f003", "float"],
+				["f004", "uint8"],
+				["f005", "uint8"],
+				["f006", "float"],
+				["f007", "float"],
+				["f008", "uint8"],
+				["f009", "uint8"],
+				["f010", "uint8"],
+				["f011", "uint8"],
+				["f012", "uint8"],
+				["f013", "uint32"],
+				["f014", "uint8"],
+				["f015", "uint32"],
+				["f016", "string"],
+				["f017", "uint8"],
+				["f018", "uint8"],
+				["f019", "uint8"],
+				["f020", "float"],
+				["f021", "uint32"]
+			]
+		}
+	}
+}

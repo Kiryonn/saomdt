@@ -1,0 +1,26 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["ability_board", ["Unit"]]
+			]
+		},
+		"Unit": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["nodes", ["Node"]]
+			]
+		},
+		"Node": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["node_id", "uint32"],
+				["value", "uint32"]
+			]
+		}
+	}
+}

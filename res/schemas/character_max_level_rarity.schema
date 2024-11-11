@@ -1,0 +1,19 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["max_level_rarity", ["MaxLevelRarity"]]
+			]
+		},
+		"MaxLevelRarity": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["rarity", "uint8"],
+				["max_level", "uint32"]
+			]
+		}
+	}
+}

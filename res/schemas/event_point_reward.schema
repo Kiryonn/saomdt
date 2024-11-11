@@ -1,0 +1,28 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["event_point_rewards", ["points_rewards"]]
+			]
+		},
+		"points_rewards": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["points", ["points_reward"]]
+			]
+		},
+		"points_reward": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["points", "uint32"],
+				["reward_group_id", "uint32"],
+				["f003", "uint32"],
+				["f004", "uint32"]
+			]
+		}
+	}
+}

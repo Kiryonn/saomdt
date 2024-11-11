@@ -1,0 +1,20 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["requirements", ["Equip"]]
+			]
+		},
+		"Equip": {
+			"type": "table",
+			"fields": [
+				["equipment_id", "uint32"],
+				["f001", "uint32"],
+				["f002", "uint32"],
+				["f003", "uint32"]
+			]
+		}
+	}
+}

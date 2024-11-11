@@ -1,0 +1,31 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["items", ["item"]]
+			]
+		},
+		"item": {
+			"type": "table",
+			"fields": [
+				["master_item_id", "uint32"],
+				["f001", "uint8"],
+				["item_type", "uint32"],
+				["f003", null],
+				["name", "string"],
+				["description", "string"],
+				["value", "uint32"],
+				["f007", null],
+				["diamond_cost", "float"],
+				["f009", "string"],
+				["f010", "uint8"],
+				["f011", "uint32"],
+				["price", "uint32"],
+				["f013", "uint8"],
+				["image_path", "string"]
+			]
+		}
+	}
+}

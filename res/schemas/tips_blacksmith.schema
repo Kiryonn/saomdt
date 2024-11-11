@@ -1,0 +1,25 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["Table_0"]]
+			]
+		},
+		"Table_0": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["text", "string"],
+				["f002", "uint32"],
+				["chara_image", "uint32"],
+				["f004", "uint32"],
+				["f005", "uint32"],
+				["f006", "uint32"],
+				["f007", "uint32"],
+				["voice", "uint32"]
+			]
+		}
+	}
+}

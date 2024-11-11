@@ -1,0 +1,56 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["skills", ["skill"]]
+			]
+		},
+		"skill": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["name", "string"],
+				["name_short", "string"],
+				["f003", "uint8"],
+				["desc", "string"],
+				["f005", "uint8"],
+				["f006", "uint32"],
+				["f007", "uint16"],
+				["icon", "string"],
+				["f009", "uint8"],
+				["f010", null],
+				["f011", "uint32"],
+				["f012", "uint32"],
+				["f013", "uint16"],
+				["f014", "uint32"],
+				["f015", "uint8"],
+				["f016", "uint32"],
+				["f017", "uint32"],
+				["f018", "uint32"],
+				["f019", "Struct_0"],
+				["effect_cellmap_name", "string"],
+				["effect_image_name", "string"],
+				["f022", "uint8"],
+				["f023", "uint8"],
+				["f024", "uint32"],
+				["f025", "uint32"],
+				["f026", "uint32"],
+				["f027", "uint8"],
+				["f028", "uint8"],
+				["f029", "uint8"],
+				["f030", "string"],
+				["f031", "uint8"]
+			]
+		},
+		"Struct_0": {
+			"type": "struct",
+			"fields": [
+				["f0", "uint32"],
+				["f1", "uint32"],
+				["f2", "uint32"]
+			]
+		}
+	}
+}

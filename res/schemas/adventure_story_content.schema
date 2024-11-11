@@ -1,0 +1,64 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["story_contents", ["story_content"]]
+			]
+		},
+		"story_content": {
+			"type": "table",
+			"fields": [
+				["story_id", "uint32"],
+				["contents", ["content"]]
+			]
+		},
+		"content": {
+			"type": "table",
+			"fields": [
+				["part", "uint32"],
+				["story_data", ["data"]]
+			]
+		},
+		"data": {
+			"type": "table",
+			"fields": [
+				["story_id", "uint32"],
+				["f001", "uint32"],
+				["part", "uint32"],
+				["character_image", "uint32"],
+				["f004", null],
+				["speaker", "string"],
+				["text", "string"],
+				["text_box_effect", "uint8"],
+				["location", "uint8"],
+				["f009", "uint8"],
+				["background", "string"],
+				["f011", "uint8"],
+				["item_image", "string"],
+				["f013", "uint32"],
+				["still_image", "string"],
+				["f015", "uint8"],
+				["screen_effect", "uint32"],
+				["f017", "uint32"],
+				["f018", "uint8"],
+				["f019", "uint8"],
+				["character_effect", "uint8"],
+				["f021", "uint8"],
+				["text_vibration", "uint8"],
+				["f023", "uint8"],
+				["f024", "uint32"],
+				["voice", "uint32"],
+				["sound_effect_1", "uint32"],
+				["sound_effect_2", "uint32"],
+				["bgm", "uint32"],
+				["f029", "uint32"],
+				["f030", "uint32"],
+				["f031", "uint32"],
+				["f032", "uint8"],
+				["f033", "string"]
+			]
+		}
+	}
+}

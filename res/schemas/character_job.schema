@@ -1,0 +1,44 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["items", ["Entry"]]
+			]
+		},
+		"Entry": {
+			"type": "table",
+			"fields": [
+				["id", "uint8"],
+				["name", "string"],
+				["desc_1", "string"],
+				["desc_2", "string"],
+				["f004", "uint8"],
+				["f005", "uint32"],
+				["f006", "uint32"],
+				["f007", null],
+				["default_weapon_texture", "string"],
+				["f009", null],
+				["f010", "Struct_0"],
+				["f011", "uint8"],
+				["equipment_subtype", "uint8"]
+			]
+		},
+		"Struct_0": {
+			"type": "struct",
+			"fields": [
+				["f0", "uint32"],
+				["f1", "uint32"]
+			]
+		},
+		"Struct_1": {
+			"type": "struct",
+			"fields": [
+				["f0", "uint32"],
+				["f1", "uint32"],
+				["f2", "uint32"]
+			]
+		}
+	}
+}

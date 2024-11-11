@@ -1,0 +1,29 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["skills"]]
+			]
+		},
+		"skills": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "string"],
+				["f002", ["Table_0"]]
+			]
+		},
+		"Table_0": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint32"],
+				["f002", "string"],
+				["f003", "string"],
+				["f004", "uint32"]
+			]
+		}
+	}
+}

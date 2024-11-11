@@ -1,0 +1,28 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["Table_0"]]
+			]
+		},
+		"Table_0": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["f001", "uint32"],
+				["background_dir", "uint32"],
+				["name", "string"],
+				["f004", "uint32"],
+				["f005", "uint32"],
+				["f006", "uint32"],
+				["f007", "uint32"],
+				["f008", "uint32"],
+				["f009", "uint32"],
+				["release_date", "uint32"],
+				["expiration_date", "uint32"]
+			]
+		}
+	}
+}

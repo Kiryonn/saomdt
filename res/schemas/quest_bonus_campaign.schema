@@ -1,0 +1,26 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["quest_bonus_campaigns", ["quest_bonus_campaign"]]
+			]
+		},
+		"quest_bonus_campaign": {
+			"type": "table",
+			"fields": [
+				["bonus_campaign_id", "uint32"],
+				["quest_id", "uint32"],
+				["f002", null],
+				["exp_boost_multiplier", "uint32"],
+				["col_boost_multiplier", "uint32"],
+				["campaign_bonus_text", "string"],
+				["campaign_begin_date_text", "string"],
+				["campaign_end_date_text", "string"],
+				["campaign_begin_date", "uint32"],
+				["campaign_end_date", "uint32"]
+			]
+		}
+	}
+}

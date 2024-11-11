@@ -1,0 +1,39 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["Unit"]]
+			]
+		},
+		"Unit": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint32"],
+				["f002", "string"],
+				["f003", "string"],
+				["f004", "string"],
+				["f005", "string"],
+				["f006", "float"],
+				["f007", "float"],
+				["f008", "float"],
+				["f009", "float"],
+				["f010", "float"],
+				["f011", "string"],
+				["f012", null],
+				["f013", "uint32"],
+				["f014", ["string"]],
+				["f015", null],
+				["f016", ["uint32"]],
+				["f017", null],
+				["f018", "uint8"],
+				["f019", ["string"]],
+				["f020", "string"],
+				["f021", ["string"]],
+				["f022", "string"]
+			]
+		}
+	}
+}

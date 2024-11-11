@@ -1,0 +1,30 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["event_special_skills", ["special_skills"]]
+			]
+		},
+		"special_skills": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["special_skills", ["special_skill"]]
+			]
+		},
+		"special_skill": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["boosted_attribute", "uint8"],
+				["attribute_id", "uint32"],
+				["dealt_damage_multiplier", "uint32"],
+				["received_damage_multiplier", "uint32"],
+				["f005", "uint32"],
+				["f006", "uint32"]
+			]
+		}
+	}
+}

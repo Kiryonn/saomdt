@@ -1,0 +1,28 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["event_items", ["event_item"]]
+			]
+		},
+		"event_item": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["items", ["item"]]
+			]
+		},
+		"item": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["item_id", "uint32"],
+				["slot", "uint32"],
+				["boost_type", "uint32"],
+				["item_boost_multiplier", "uint32"]
+			]
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["assets", ["Asset"]]
+			]
+		},
+		"Asset": {
+			"type": "table",
+			"fields": [
+				["file_name", "string"],
+				["hash", "string"]
+			]
+		}
+	}
+}

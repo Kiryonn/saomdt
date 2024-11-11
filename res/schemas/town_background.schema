@@ -1,0 +1,22 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["town_backgrounds", ["town_background"]]
+			]
+		},
+		"town_background": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["background_id", "uint32"],
+				["condition", "uint32"],
+				["f003", "uint32"],
+				["start_date", "uint32"],
+				["end_date", "uint32"]
+			]
+		}
+	}
+}

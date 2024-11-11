@@ -1,0 +1,22 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["banners", ["banner"]]
+			]
+		},
+		"banner": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["image_file", "string"],
+				["f002", "uint8"],
+				["banner_type", "uint8"],
+				["banner_id", "uint32"],
+				["f005", "string"]
+			]
+		}
+	}
+}

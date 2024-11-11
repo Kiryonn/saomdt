@@ -1,0 +1,30 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["character_stories", ["character_story"]]
+			]
+		},
+		"character_story": {
+			"type": "table",
+			"fields": [
+				["chara_id", "uint32"],
+				["stories", ["story"]]
+			]
+		},
+		"story": {
+			"type": "table",
+			"fields": [
+				["story_id", "uint32"],
+				["name", "string"],
+				["chara_id", "uint32"],
+				["level", "uint32"],
+				["f004", null],
+				["story_type", "string"],
+				["f006", "uint8"]
+			]
+		}
+	}
+}

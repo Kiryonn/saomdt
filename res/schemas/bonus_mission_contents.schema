@@ -1,0 +1,20 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["missions", ["mission_contents"]]
+			]
+		},
+		"mission_contents": {
+			"type": "table",
+			"fields": [
+				["mission_contents_id", "uint32"],
+				["bonus_mission_type", "uint32"],
+				["condition", "uint32"],
+				["description", "string"]
+			]
+		}
+	}
+}

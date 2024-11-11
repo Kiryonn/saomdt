@@ -1,0 +1,19 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["packages"]]
+			]
+		},
+		"packages": {
+			"type": "table",
+			"fields": [
+				["f000", "string"],
+				["f001", "uint32"],
+				["f002", "string"]
+			]
+		}
+	}
+}

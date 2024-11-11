@@ -1,0 +1,31 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["quests", ["quest"]]
+			]
+		},
+		"quest": {
+			"type": "table",
+			"fields": [
+				["quest_id", "uint32"],
+				["stories", ["story"]]
+			]
+		},
+		"story": {
+			"type": "table",
+			"fields": [
+				["story_id", "uint32"],
+				["name", "string"],
+				["quest_id", "uint32"],
+				["f003", "uint8"],
+				["stage_id", "uint32"],
+				["f005", "uint8"],
+				["description", "string"],
+				["f007", "uint8"]
+			]
+		}
+	}
+}

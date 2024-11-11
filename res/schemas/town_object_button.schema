@@ -1,0 +1,35 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["assets", ["Asset"]]
+			]
+		},
+		"Asset": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["f000", "string"],
+				["f001", "string"],
+				["f002", "string"],
+				["f003", "float"],
+				["f004", "float"],
+				["f005", "float"],
+				["f006", "uint8"]
+			]
+		},
+		"Asset_2": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint32"],
+				["f002", "uint32"],
+				["f003", "uint32"],
+				["f004", "uint32"],
+				["f005", "uint32"]
+			]
+		}
+	}
+}

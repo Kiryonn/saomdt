@@ -1,0 +1,18 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["file", ["file"]]
+			]
+		},
+		"file": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["name", "string"]
+			]
+		}
+	}
+}

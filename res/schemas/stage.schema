@@ -1,0 +1,134 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", "uint8"],
+				["stages", ["Table_0"]],
+				["stages_list", ["Table_7"]]
+			]
+		},
+		"Table_0": {
+			"type": "table",
+			"fields": [
+				["quest_id", "uint32"],
+				["stage_data", ["Table_1"]],
+				["first_stage_id", "uint32"]
+			]
+		},
+		"Table_1": {
+			"type": "table",
+			"fields": [
+				["stage_id", "uint32"],
+				["quest_id", "uint32"],
+				["background", "uint32"],
+				["bgm", "uint32"],
+				["f004", "uint8"],
+				["f005", "uint8"],
+				["f006", "uint32"],
+				["f007", "uint8"],
+				["f008", "uint8"],
+				["f009", ["Table_2"]],
+				["f010", ["Table_3"]],
+				["f011", ["Table_4"]],
+				["f012", ["Table_5"]],
+				["f013", ["Table_6"]],
+				["test", "uint32"],
+				["f015", "uint32"],
+				["f016", "uint32"],
+				["f017", "uint32"],
+				["f018", "float"],
+				["f019", "float"],
+				["f020", "uint8"],
+				["f021", "uint32"],
+				["f022", "float"],
+				["f023", "uint8"],
+				["f024", "uint32"],
+				["f025", "uint32"],
+				["f026", "uint32"],
+				["f027", "uint32"],
+				["f028", "uint8"],
+				["f029", "uint8"]
+			]
+		},
+		"Table_2": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["difficulty", "uint8"],
+				["x_start_position", "float"],
+				["altitude_start_position", "float"],
+				["y_start_position", "float"],
+				["ai", "uint32"],
+				["f006", "uint32"],
+				["enemy_id", "uint32"],
+				["f008", "uint8"],
+				["drop", "uint32"],
+				["f010", "uint8"],
+				["f011", "uint32"],
+				["f012", "uint8"],
+				["enemy_lvl", "uint8"],
+				["f014", "uint8"],
+				["f015", "uint32"],
+				["f016", "uint8"],
+				["f017", "uint8"],
+				["f018", "uint8"]
+			]
+		},
+		"Table_3": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "float"],
+				["f002", "uint32"],
+				["f003", "float"],
+				["f004", "uint8"],
+				["f005", "uint32"],
+				["f006", "uint8"],
+				["f007", "uint8"]
+			]
+		},
+		"Table_4": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint32"],
+				["f002", "float"],
+				["f003", "float"],
+				["f004", "float"],
+				["f005", "float"],
+				["f006", "float"]
+			]
+		},
+		"Table_5": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "float"],
+				["f002", "uint32"],
+				["f003", "float"],
+				["f004", "uint32"],
+				["f005", "uint32"],
+				["f006", "uint32"],
+				["f007", "uint32"]
+			]
+		},
+		"Table_6": {
+			"type": "table",
+			"fields": [
+				["f001", "uint32"],
+				["f002", "uint32"],
+				["f003", ["uint8"]],
+				["f004", "uint8"]
+			]
+		},
+		"Table_7": {
+			"type": "table",
+			"fields": [
+				["stage_id", "uint32"],
+				["quest_id", "uint32"]
+			]
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["stories", ["Story"]]
+			]
+		},
+		"Story": {
+			"type": "table",
+			"fields": [
+				["f000", null]
+			]
+		}
+	}
+}

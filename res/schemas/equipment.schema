@@ -1,0 +1,50 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["items", ["Item"]]
+			]
+		},
+		"Item": {
+			"type": "table",
+			"fields": [
+				["f00", "uint32"],
+				["f01", "uint8"],
+				["f02", "uint8"],
+				["f03", "uint8"],
+				["f04", "uint8"],
+				["rarity", "uint8"],
+				["name", "string"],
+				["f07", "string"],
+				["f08", "uint32"],
+				["f09", "uint8"],
+				["f10", "uint32"],
+				["image", "string"],
+				["ATK", "Stat"],
+				["DEF", "Stat"],
+				["CRI", "Stat"],
+				["f15", "Stat"],
+				["HP", "Stat"],
+				["MP", "Stat"],
+				["f18", "Stat"],
+				["f19", "Stat"],
+				["f20", ["uint32"]],
+				["f21", "uint32"],
+				["f22", "uint32"],
+				["f23", "uint8"],
+				["f24", "uint8"],
+				["f25", "Stat"],
+				["f26", "uint32"]
+			]
+		},
+		"Stat": {
+			"type": "struct",
+			"fields": [
+				["f0", "uint32"],
+				["f1", "uint32"]
+			]
+		}
+	}
+}

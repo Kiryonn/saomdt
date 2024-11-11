@@ -1,0 +1,53 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["quests", ["quests"]]
+			]
+		},
+		"quests": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["infos", ["Table_0"]]
+			]
+		},
+		"Table_0": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["difficulty", "uint8"],
+				["bonus_missions", "uint32"],
+				["f003", "uint32"],
+				["f004", "uint32"],
+				["f005", "uint32"],
+				["enemy_lvl", "uint32"],
+				["f007", "uint8"],
+				["f008", "uint32"],
+				["f009", "uint32"],
+				["f010", "uint32"],
+				["f011", "uint32"],
+				["f012", "uint32"],
+				["supporter", ["Table_1"]],
+				["f014", "uint32"],
+				["f015", "uint8"],
+				["f016", "uint32"],
+				["f017", "uint8"]
+			]
+		},
+		"Table_1": {
+			"type": "table",
+			"fields": [
+				["id", "uint32"],
+				["allowed", "uint8"],
+				["character_id", "uint32"],
+				["character_lvl", "uint32"],
+				["equipment", ["uint32"]],
+				["text", "string"],
+				["character", "string"]
+			]
+		}
+	}
+}

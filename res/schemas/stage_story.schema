@@ -1,0 +1,17 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["stage_stories", ["StageStory"]]
+			]
+		},
+		"StageStory": {
+			"type": "table",
+			"fields": [
+				["f000", null]
+			]
+		}
+	}
+}

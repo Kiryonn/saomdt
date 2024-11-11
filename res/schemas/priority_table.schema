@@ -1,0 +1,21 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["priority_tables", ["PriorityTable"]]
+			]
+		},
+		"PriorityTable": {
+			"type": "table",
+			"fields": [
+				["f000", "uint32"],
+				["f001", "uint32"],
+				["f002", "uint32"],
+				["f003", "uint32"],
+				["f004", "uint32"]
+			]
+		}
+	}
+}

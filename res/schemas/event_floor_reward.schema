@@ -1,0 +1,29 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["f000", ["Table_0"]]
+			]
+		},
+		"Table_0": {
+			"type": "table",
+			"fields": [
+				["event_id", "uint32"],
+				["f000", ["Table_1"]]
+			]
+		},
+		"Table_1": {
+			"type": "table",
+			"fields": [
+				["floor", "uint32"],
+				["event_id", "uint32"],
+				["quantity", "uint32"],
+				["reward", "uint32"],
+				["f004", "uint32"],
+				["world", "string"]
+			]
+		}
+	}
+}

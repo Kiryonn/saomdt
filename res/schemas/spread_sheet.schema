@@ -1,0 +1,17 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["spread_sheets", ["SpreadSheet"]]
+			]
+		},
+		"SpreadSheet": {
+			"type": "table",
+			"fields": [
+				["f000", null]
+			]
+		}
+	}
+}

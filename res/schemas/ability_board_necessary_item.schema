@@ -1,0 +1,30 @@
+{
+	"roottype": "root",
+	"types": {
+		"root": {
+			"type": "table",
+			"fields": [
+				["ability_board_necessary_items", ["ability_board_necessary_item"]]
+			]
+		},
+		"ability_board_necessary_item": {
+			"type": "table",
+			"fields": [
+				["node_id", "uint32"],
+				["items", ["item"]]
+			]
+		},
+		"item": {
+			"type": "table",
+			"fields": [
+				["necessary_item_node_id", "uint32"],
+				["node_id", "uint32"],
+				["item_id", "uint32"],
+				["amount", "uint32"],
+				["limit_break_item_type_1", "uint32"],
+				["limit_break_item_type_2", "uint32"],
+				["limit_break_item_type_3", "uint32"]
+			]
+		}
+	}
+}
